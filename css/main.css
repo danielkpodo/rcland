@@ -161,7 +161,8 @@ ul {
 .specifications {
   margin-top: 3rem;
   position: relative;
-  background: url("../images/overlay-dark.jpg") no-repeat bottom center/cover;
+  background: url("../images/overlay-dark.jpg") no-repeat fixed bottom
+    center/cover;
   height: 37.5em;
 }
 
