@@ -25,6 +25,7 @@ body {
   line-height: 1.6;
   color: var(--primary-color);
   -webkit-font-smoothing: antialiased;
+  padding-top: 8.5rem;
 }
 
 p {
@@ -67,8 +68,14 @@ ul {
 #navbar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 1rem 0;
-  margin-bottom: 3rem;
+}
+
+#header {
+  background: #fff;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 #header-img {
@@ -371,6 +378,10 @@ ul {
     text-align: center;
   }
 
+  body {
+    padding-top: 11rem;
+  }
+
   .product-gallery .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -450,6 +461,7 @@ ul {
     margin-right: 0.625rem;
     font-family: var(--oswald-font);
     font-size: 1.2rem;
+    display: none;
   }
 }
 
