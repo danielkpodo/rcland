@@ -24,7 +24,7 @@
                 <li><a href="#specifications" class="nav-link">Features</a></li>
                 <li><a href="#gallery" class="nav-link">Gallery</a></li>
                 <li><a href="#review" class="nav-link">Review</a></li>
-                <li><a href="#contact" class="nav-link button button-secondary btn-small">Get in touch</a></li>
+                <li><a href="#contact" class="nav-link button button-secondary btn-small">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
     <section class="showcase">
         <div class="container">
             <div>
-                <h2>The Brand New Asus Rog GL551</h2>
+                <h2 id="home">The Brand New Asus Rog GL551</h2>
                 <p>Experience real gaming experience with highly dedicated Nvidia graphics and optimized RAM without any
                     breakages and lagging. Asus Rog GL551 redefines the experience for gaming</p>
                 <a href="#" class="button button-highlight btn-large">Order Now</a>
@@ -115,27 +115,61 @@
         </div>
     </section>
 
-    <section class="specifications" id="specifications">
-        <div class="overlay">
-            <div class="spec-inner">
-                <h3>Product Specifications</h3>
-                <ul class="spec-list">
-                    <li><strong>CPU</strong> 2.5GHz Intel Core i7-4710HQ</li>
-                    <li><strong>Graphics</strong> Nvidia GeForce GTX 860M (2GB GDDR5 RAM); Intel HD Graphics 4600</li>
-                    <li><strong>RAM</strong> 16GB DDR3L (2x 8GB at 1600MHz)</li>
-                    <li><strong>Screen</strong> 15.6" FHD (1920 x 1080) display, matte finish</li>
-                    <li><strong>Storage</strong> 1TB HDD (7,200 rpm)</li>
-                    <li><strong>Optical drive</strong> 8x DL DVD±RW/CD-RW Drive</li>
-                    <li><strong>Ports</strong> 3 x USB 3.0, 1 x HDMI, 1x mini DisplayPort. SDXC card reader, Gigabit
-                        Ethernet</li>
-                    <li><strong>Connectivity</strong> 802.11 a/b/g/n, Bluetooth 4.0</li>
-                    <li><strong>Camera</strong> 1.2MP, 720p webcam</li>
-                    <li><strong>Weight</strong> 6 pounds</li>
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h3>Social Networks</h3>
+                <a href="#">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+
+            <div>
+                <h3>Main Menu</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#specifications">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Review</a></li>
                 </ul>
             </div>
-        </div>
-    </section>
 
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">GSM Arena</a></li>
+                    <li><a href="#">Racoon Devs</a></li>
+                    <li><a href="#">Amazon</a></li>
+                    <li><a href="#">Rogue Electronics</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 id="contact">Subscribe</h3>
+                <p>Enter your email and stay-up-to-date with our newsletter</p>
+                <form name="email-form" method="post" id="form">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" class="form-control" size="40"
+                                placeholder="Subscribe to our newsletter">
+                            <button type="sunmit" class="form-control submit" id="submit">
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
