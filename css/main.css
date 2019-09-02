@@ -149,7 +149,7 @@ ul {
   padding: 1rem 5rem;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   background: var(--primary-color);
   color: #fff;
@@ -162,7 +162,7 @@ ul {
 
 .btn:hover {
   background-color: var(--secondary-color);
-}
+} */
 
 /* Global buttons ends */
 
@@ -336,52 +336,34 @@ ul {
   color: var(--green-color);
 }
 
-.email-form {
-  width: 100%;
-  display: inline-block;
-  background: #555;
-  border-radius: 20px;
-  position: relative;
-  line-height: 0;
+.section-footer p {
+  font-size: 1rem;
+}
+
+#email {
+  width: 300px;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 25px;
+  border: 0;
+  outline: none;
   margin-top: 1rem;
 }
 
-.email-form .form-control {
-  display: inline-block;
+#submit {
   border: 0;
-  outline: 0;
-  color: #ddd;
-  font-size: 1rem;
-  background: transparent;
-  font-family: inherit;
-  padding: 0 3rem 0 1.5rem;
-  height: 45px;
-  border-radius: 20px;
-}
-
-.email-form .submit {
-  display: inline-block;
-  position: absolute;
-  border: 0;
-  top: 0;
-  right: 0;
-  outline: 0;
-  width: 45px;
-  height: 45px;
-  margin: 0;
+  outline: none;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 25px;
+  margin-top: 0.625rem;
   background: var(--green-color);
-  color: #333;
-  text-align: center;
-  padding: 0;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 0 20px 20px 0px;
-}
-
-#submit i {
+  font-weight: 700;
   color: #fff;
 }
 
+#submit:hover {
+  background: var(--yellow-color);
+  cursor: pointer;
+}
 /* Media Queries */
 
 @media screen and (max-width: 800px) {
