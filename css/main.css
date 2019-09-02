@@ -19,6 +19,10 @@
   --contact-bg: #f2f1f8;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--body-font);
   font-size: 100%;
