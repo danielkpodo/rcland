@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/28de576615.js"></script>
     <link rel="stylesheet" href="./css/simplelightbox.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -23,7 +24,7 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#specifications" class="nav-link">Features</a></li>
                 <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                <li><a href="#review" class="nav-link">Review</a></li>
+                <li><a href="#review" class="nav-link" id="review">Review</a></li>
                 <li><a href="#contact" class="nav-link button button-secondary btn-small">Contact</a></li>
             </ul>
         </nav>
@@ -31,14 +32,14 @@
 
     <section class="showcase">
         <div class="container">
-            <div>
+            <div data-aos="fade-right">
                 <h2 id="home">The Brand New Asus Rog GL551</h2>
                 <p>Experience real gaming experience with highly dedicated Nvidia graphics and optimized RAM without
                     any
                     breakages and lagging. Asus Rog GL551 redefines the experience for gaming</p>
                 <a href="#" class="button button-highlight btn-large">Order Now</a>
             </div>
-            <div>
+            <div data-aos="zoom-in">
                 <img src="./images/asus-rog.png" alt="Asus Rog Gaming Machine">
             </div>
         </div>
@@ -46,9 +47,9 @@
 
     <section class="specifications" id="specifications">
         <div class="overlay">
-            <div class="spec-inner">
+            <div class="spec-inner" data-aos="zoom-in-up">
                 <h3>Product Specifications</h3>
-                <ul class="spec-list">
+                <ul class=" spec-list">
                     <li><strong>CPU</strong> 2.5GHz Intel Core i7-4710HQ</li>
                     <li><strong>Graphics</strong> Nvidia GeForce GTX 860M (2GB GDDR5 RAM); Intel HD Graphics 4600
                     </li>
@@ -68,10 +69,10 @@
 
     <section class="product-gallery">
         <div class="gallery" id="gallery">
-            <a href="./images/image1.jpg">
+            <a href="./images/image1.jpg" data-aos="fade-up">
                 <img src="./images/image1.jpg" alt="dark asus wallpaper" class="big">
             </a>
-            <a href="./images/image2.jpg">
+            <a href="./images/image2.jpg" data-aos="fade-right">
                 <img src="./images/image2.jpg" alt="sleek desktop wallpaper" class="big">
             </a>
             <a href="./images/image3.jpg">
@@ -80,13 +81,13 @@
             <a href="./images/image4.jpg">
                 <img src="./images/image4.jpg" alt="red asus wallpaper" class="big">
             </a>
-            <a href="./images/image5.jpg">
+            <a href="./images/image5.jpg" data-aos="flip-left">
                 <img src="./images/image5.jpg" alt="better bright-red photo of asus" class="big">
             </a>
             <a href="./images/image6.jpg">
                 <img src="./images/image6.jpg" alt="darkmix asus wallpaper" class="big">
             </a>
-            <a href="./images/image7.jpg">
+            <a href="./images/image7.jpg" data-aos="zoom-in">
                 <img src="./images/image7.jpg" alt="neat asus wallpaper" class="big">
             </a>
             <a href="./images/image8.jpg">
@@ -108,10 +109,10 @@
     <section class="review" id="review">
         <h3>Product Review</h3>
         <div class="container">
-            <div class="review-items">
+            <div class="review-items" data-aos="zoom-out">
                 <img src="./images/review.svg" alt="product review image">
             </div>
-            <div class="product-video" id="video">
+            <div class="product-video" id="video" data-aos="zoom-out-right">
                 <iframe src="https://player.vimeo.com/video/162040532" width="640" height="270" frameborder="0"
                     allow="autoplay; fullscreen" allowfullscreen>
                 </iframe>
@@ -177,7 +178,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./js/simple-lightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/jquery.fitvids.js"></script>
+    <script src="./js/jump.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
